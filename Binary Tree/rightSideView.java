@@ -26,7 +26,12 @@ class Solution {
         {
             result.add(root.val);
         }
+        //for right side view
         fun(root.right,result,level+1);
         fun(root.left,result,level+1);
+        
+        //for left side view 
+        fun(root.left,result,level+1);
+        fun(root.right,result,level+1);
     }
 }
